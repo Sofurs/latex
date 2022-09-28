@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{tgbonum}
+
+\usepackage[a4paper, margin=3cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{titling}
+
+\newcommand{\thetitle}{Title}
+\newcommand{\theauthor}{Name}
+\newcommand{\thesubject}{Subject}
+
+\pagestyle{fancy}
+\lhead{\theauthor}
+\rhead{\thesubject}
+\lfoot{\thepage}
+\cfoot{}
+\rfoot{\today}
+\pretitle{\begin{flushleft}\LARGE}
+\title{\textbf{\thetitle}}
+\posttitle{\par\end{flushleft}}
+\predate{}
+\date{}
+\postdate{}
+\preauthor{}
+\postauthor{}
+\setlength{\droptitle}{-4em}
